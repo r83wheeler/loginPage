@@ -36,13 +36,16 @@ input {
 #sign-btn {
   display: block;
   padding: 12px;
-  font-size: 14px;
+  font-size: 16px;
   width: 100%;
-  background-color: rgb(134, 172, 159);
+  margin-top: 10px;
+  background: rgb(10, 80, 209);
   border: none;
   color: azure;
-  cursor: pointer;
-  border-radius: 7%;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 #sign-btn:hover {
@@ -61,4 +64,39 @@ input {
   border-radius: 5%;
   box-shadow: 10px 10px 15px black;
   background-color: rgb(54, 150, 150);
+}
+
+/* SIGN UP STYLES */
+
+.sign-up {
+  display: block;
+  padding: 12px;
+  font-size: 16px;
+  width: 70%;
+  margin-top: 10px;
+  background: rgb(2, 68, 58);
+  border: none;
+  color: azure;
+  width: 91%;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.sign-up:hover {
+  background: rgb(34, 135, 74);
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 18px;
+}
+
+.form-inputs input {
+  padding: 10px;
+  font-size: 16px;
+  width: 95%;
 }
